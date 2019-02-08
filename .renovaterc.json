@@ -1,0 +1,6 @@
+{
+  "extends": ["config:js-app", "schedule:weekly"],
+  "automergeType": "branch",
+  "automerge": true,
+  "rebaseStalePrs": true
+}
