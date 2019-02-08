@@ -23,9 +23,11 @@
     "webpack": "^4.29.3",
     "webpack-bundle-analyzer": "^3.0.3",
     "webpack-cli": "^3.2.3",
-    "webpack-dev-server": "^3.1.14"
+    "webpack-dev-server": "^3.1.14",
+    "webpack-merge": "^4.2.1"
   },
   "dependencies": {
+    "app-root-path": "^2.1.0",
     "react": "^16.8.1",
     "react-dom": "^16.8.1"
   }

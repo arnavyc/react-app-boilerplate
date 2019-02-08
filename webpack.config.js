@@ -1,36 +1,21 @@
-const HTMLWebpackPlugin = require("html-webpack-plugin");
-const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin');
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+const prodConfig = require('./config/webpack.prod');
+const devConfig = require('./config/webpack.dev');
+const commonConfig = require('./config/webpack.common');
 
-module.exports = {
-  entry: './src/index.js',
-  output: {
-    path: `${__dirname}/dist`,
-    filename: 'bundle.js',
-  },
-  stats: 'errors-only',
-  module: {
-    rules: [
-      {
-        test: /\.(js|jsx)$/,
-        exclude: /node_modules/,
-        use: "babel-loader",
-      },
-      {
-        test: /\.html$/,
-        use: "html-loader",
-      },
-    ],
-  },
-  plugins: [
-    new HTMLWebpackPlugin({
-      template: "./public/index.html",
-      filename: "./index.html",
-    }),
-    new FriendlyErrorsWebpackPlugin(),
-    new BundleAnalyzerPlugin(),
-  ],
-  devServer: {
-    quiet: true,
-  },
-};
+module.exports = (env) => {
+  const { mode } = env;
+  let res = {};
+  switch(mode) {
+    case 'production':
+      res = prodConfig;
+      break;
+
+    case 'development':
+      res = devConfig;
+      break;
+
+    default:
+      res = commonConfig;
+  }
+  return res;
+}
