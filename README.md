@@ -5,7 +5,6 @@
 This is a boilerplate project for React. Its features are:
 
 - Seperate Webpack configuration for production and development in config/ folder.
-- Progress bar using [`webpackbar`](https://github.com/nuxt/webpackbar).
 - Linting using ESLint and Prettier
 - 7 npm scripts
   - `start:dev` script for starting webpack-dev-server.

@@ -1,6 +1,5 @@
 const HTMLWebpackPlugin = require('html-webpack-plugin');
 const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin');
-const WebpackBar = require('webpackbar');
 const appRoot = require('app-root-path');
 
 module.exports = {
@@ -32,6 +31,5 @@ module.exports = {
       filename: './index.html',
     }),
     new FriendlyErrorsWebpackPlugin(),
-    new WebpackBar(),
   ],
 };
