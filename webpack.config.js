@@ -2,10 +2,10 @@ const prodConfig = require('./config/webpack.prod');
 const devConfig = require('./config/webpack.dev');
 const commonConfig = require('./config/webpack.common');
 
-module.exports = (env) => {
+module.exports = env => {
   const { mode } = env;
   let res = {};
-  switch(mode) {
+  switch (mode) {
     case 'production':
       res = prodConfig;
       break;
@@ -18,4 +18,4 @@ module.exports = (env) => {
       res = commonConfig;
   }
   return res;
-}
+};
