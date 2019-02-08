@@ -1,4 +1,4 @@
-const HTMLWebpackPlugin = require("html-webpack-plugin");
+const HTMLWebpackPlugin = require('html-webpack-plugin');
 const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin');
 const WebpackBar = require('webpackbar');
 const appRoot = require('app-root-path');
@@ -10,26 +10,28 @@ module.exports = {
     filename: 'bundle.js',
   },
   stats: 'errors-only',
+  resolve: {
+    extensions: ['.js', '.jsx'],
+  },
   module: {
     rules: [
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        use: "babel-loader",
+        use: 'babel-loader',
       },
       {
         test: /\.html$/,
-        use: "html-loader",
+        use: 'html-loader',
       },
     ],
   },
   plugins: [
     new HTMLWebpackPlugin({
-      template: "./public/index.html",
-      filename: "./index.html",
+      template: './public/index.html',
+      filename: './index.html',
     }),
     new FriendlyErrorsWebpackPlugin(),
     new WebpackBar(),
   ],
 };
-
