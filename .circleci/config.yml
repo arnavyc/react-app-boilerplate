@@ -32,3 +32,9 @@ jobs:
       - run:
           name: Build project
           command: npm run build
+
+      - run:
+          name: Uploading code coverage to codecov
+          command: |
+            npm run test:coverage
+            npm run codecov
