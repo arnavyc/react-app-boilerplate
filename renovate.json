@@ -1,0 +1,5 @@
+{
+  "extends": ["config:base", "schedule:weekly"],
+  "automerge": true,
+  "rebaseStalePrs": true
+}
