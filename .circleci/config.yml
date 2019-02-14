@@ -1,0 +1,98 @@
+version: 2.1
+
+executors:
+  default:
+    working_directory: ~/repo
+    docker:
+      - image: circleci/node:10.15
+
+jobs:
+  checkout-code:
+    executor: default
+    steps:
+      - checkout
+      - persist_to_workspace:
+          root: ~/repo
+          paths: .
+
+  install-deps:
+    executor: default
+    steps:
+      - attach_workspace:
+          at: ~/repo
+
+      - restore_cache:
+          keys:
+            - v1-npm-cache-{{ checksum "package-lock.json" }}
+
+      - run: npm ci
+
+      - save_cache:
+          key: v1-npm-cache-{{ checksum "package-lock.json" }}
+          paths:
+            - ~/.npm
+
+      - persist_to_workspace:
+          root: ~/repo
+          paths:
+            - node_modules
+
+  lint-and-check-formatting:
+    executor: default
+    steps:
+      - attach_workspace:
+          at: ~/repo
+
+      - run: npm run fmt:check
+      - run: npm run lint
+
+  build:
+    executor: default
+    steps:
+      - attach_workspace:
+          at: ~/repo
+
+      - run: npm run build
+
+  test:
+    executor: default
+    steps:
+      - attach_workspace:
+          at: ~/repo
+
+      - run: npm run test:ci
+
+  test-coverage:
+    executor: default
+    steps:
+      - attach_workspace:
+          at: ~/repo
+
+      - run: npm run test:coverage
+      - run: npm run codecov
+
+workflows:
+  version: 2.1
+  project-workflow:
+    jobs:
+      - checkout-code
+
+      - install-deps:
+          requires:
+            - checkout-code
+
+      - lint-and-check-formatting:
+          requires:
+            - install-deps
+
+      - build:
+          requires:
+            - install-deps
+
+      - test:
+          requires:
+            - install-deps
+
+      - test-coverage:
+          requires:
+            - test

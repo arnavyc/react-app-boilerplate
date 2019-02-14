@@ -2,6 +2,7 @@
 
 ![](https://img.shields.io/david/arnavyash/react-boilerplate.svg?style=flat-square)
 ![](https://img.shields.io/codecov/c/github/arnavyash/react-app-boilerplate.svg?logo=codecov&style=flat-square)
+![](https://img.shields.io/circleci/project/github/arnavyash/react-app-boilerplate.svg?logo=circleci&style=flat-square)
 
 This is a boilerplate project for React. Its features are:
 
