@@ -83,7 +83,7 @@
     "lint-staged": "8.1.4",
     "prettier": "1.16.4",
     "prettier-check": "2.0.0",
-    "react-test-renderer": "16.8.1",
+    "react-test-renderer": "16.8.2",
     "rimraf": "2.6.3",
     "webpack": "4.29.4",
     "webpack-bundle-analyzer": "3.0.4",
@@ -93,7 +93,7 @@
   },
   "dependencies": {
     "app-root-path": "2.1.0",
-    "react": "16.8.1",
-    "react-dom": "16.8.1"
+    "react": "16.8.2",
+    "react-dom": "16.8.2"
   }
 }
