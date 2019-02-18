@@ -58,6 +58,11 @@
       "git add"
     ]
   },
+  "prettier": {
+    "singleQuote": true,
+    "bracketSpacing": true,
+    "trailingComma": "es5"
+  },
   "devDependencies": {
     "@babel/core": "7.3.3",
     "@babel/preset-env": "7.3.1",
