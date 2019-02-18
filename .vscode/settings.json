@@ -1,0 +1,6 @@
+{
+  "eslint.validate": ["javascript", "javascriptreact"],
+  "files.trimTrailingWhitespace": true,
+  "javascript.preferences.importModuleSpecifier": "auto",
+  "javascript.preferences.quoteStyle": "single"
+}
