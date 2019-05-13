@@ -68,7 +68,7 @@
     "@babel/preset-env": "7.4.4",
     "@babel/preset-react": "7.0.0",
     "babel-jest": "24.8.0",
-    "babel-loader": "8.0.5",
+    "babel-loader": "8.0.6",
     "codecov": "3.3.0",
     "cross-env": "5.2.0",
     "eslint": "5.16.0",
