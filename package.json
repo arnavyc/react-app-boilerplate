@@ -90,7 +90,7 @@
     "prettier-check": "2.0.0",
     "react-test-renderer": "16.9.0",
     "rimraf": "2.6.3",
-    "webpack": "4.39.1",
+    "webpack": "4.39.2",
     "webpack-bundle-analyzer": "3.4.1",
     "webpack-cli": "3.3.6",
     "webpack-dev-server": "3.8.0",
