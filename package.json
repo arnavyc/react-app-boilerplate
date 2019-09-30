@@ -64,8 +64,8 @@
     "trailingComma": "es5"
   },
   "devDependencies": {
-    "@babel/core": "7.6.0",
-    "@babel/preset-env": "7.6.0",
+    "@babel/core": "7.6.2",
+    "@babel/preset-env": "7.6.2",
     "@babel/preset-react": "7.0.0",
     "babel-jest": "24.9.0",
     "babel-loader": "8.0.6",
