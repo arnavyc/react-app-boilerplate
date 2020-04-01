@@ -1,5 +1,5 @@
 {
-  "extends": ["config:base", "schedule:weekly", "group:monorepo"],
+  "extends": ["config:base", "schedule:weekly", "group:monorepos"],
   "automergeType": "branch",
   "automerge": true,
   "rebaseStalePrs": true
