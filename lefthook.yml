@@ -1,0 +1,14 @@
+# SPDX-FileCopyrightText: 2021 arnavyc
+#
+# SPDX-License-Identifier: 0BSD
+
+pre-commit:
+  parallel: true
+  commands:
+    eslint:
+      glob: '{.[^.],}*.{js,jsx}'
+      run: echo {staged_files}
+
+    prettier:
+      glob: '{.[^.],}*.{html,md,mdx,yml,yaml,json,css,scss,less}'
+      run: prettier --write -- {staged_files}
