@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2021 arnavyc
+
+SPDX-License-Identifier: 0BSD
+-->
+
 # A React boilerplate
 
 ![GitHub](https://img.shields.io/github/license/arnavyc/react-app-boilerplate?style=flat-square)

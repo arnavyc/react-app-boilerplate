@@ -4,7 +4,7 @@
   "main": "index.js",
   "repository": "https://github.com/arnavyash/react-app-boilerplate.git",
   "author": "Arnav Yash <arnavyash2004@gmail.com>",
-  "license": "MIT",
+  "license": "0BSD",
   "private": true,
   "scripts": {
     "postinstall": "husky install",
