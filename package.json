@@ -46,7 +46,7 @@
     "testURL": "http://localhost:8085"
   },
   "devDependencies": {
-    "@arkweid/lefthook": "0.7.4",
+    "@arkweid/lefthook": "0.7.5",
     "@babel/core": "7.14.2",
     "@babel/preset-env": "7.14.2",
     "@babel/preset-react": "7.13.13",
