@@ -54,7 +54,7 @@
     "babel-loader": "8.2.2",
     "codecov": "3.8.2",
     "cross-env": "7.0.3",
-    "eslint": "7.29.0",
+    "eslint": "7.30.0",
     "eslint-config-airbnb": "18.2.1",
     "eslint-config-prettier": "7.2.0",
     "eslint-formatter-pretty": "4.1.0",
