@@ -75,7 +75,7 @@
     "webpack-cli": "4.8.0",
     "webpack-dev-server": "3.11.3",
     "webpack-merge": "5.8.0",
-    "webpackbar": "5.0.0-3"
+    "webpackbar": "5.0.2"
   },
   "dependencies": {
     "app-root-path": "3.0.0",
