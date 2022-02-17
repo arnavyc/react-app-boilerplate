@@ -256,3 +256,4 @@ tags
 
 ### Local modifications
 dist/
+package-lock.json
