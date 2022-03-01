@@ -1,15 +1,16 @@
 /**
- * SPDX-FileCopyrightText: 2021 arnavyc
- *
+ * Copyright 2021 arnavyc <arnavyc@outlook.com>
  * SPDX-License-Identifier: 0BSD
  */
 
 import React from 'react';
 
-export default () => {
+function App() {
   return (
     <div>
       <p>Hello, World</p>
     </div>
   );
-};
+}
+
+export default App;
