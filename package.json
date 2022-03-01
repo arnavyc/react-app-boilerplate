@@ -39,7 +39,9 @@
       "!**/coverage/**",
       "!webpack.config.js",
       "!**/dist/**",
-      "!src/index.js"
+      "!src/index.js",
+      "!.eslintrc.js",
+      "!.prettierrc.js"
     ],
     "coverageDirectory": "coverage",
     "testEnvironment": "jsdom",
