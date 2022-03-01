@@ -10,7 +10,7 @@ SPDX-License-Identifier: 0BSD
 ![David](https://img.shields.io/david/arnavyc/react-app-boilerplate?style=flat-square)
 ![Codecov](https://img.shields.io/codecov/c/github/arnavyc/react-app-boilerplate?logo=codecov&style=flat-square)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/arnavyc/react-app-boilerplate/Run%20tests?logo=github&style=flat-square)
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Farnavyc%2Freact-app-boilerplate.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Farnavyc%2Freact-app-boilerplate?ref=badge_shield)
+[![FOSSA Status](https://app.fossa.com/api/projects/custom%2B23129%2Fgithub.com%2Farnavyc%2Freact-app-boilerplate.svg?type=small)](https://app.fossa.com/projects/custom%2B23129%2Fgithub.com%2Farnavyc%2Freact-app-boilerplate?ref=badge_small)
 
 This is a boilerplate project for React. Its features are:
 
@@ -26,4 +26,4 @@ This is a boilerplate project for React. Its features are:
 
 ## License
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Farnavyash%2Freact-app-boilerplate.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Farnavyash%2Freact-app-boilerplate?ref=badge_large)
+[![FOSSA Status](https://app.fossa.com/api/projects/custom%2B23129%2Fgithub.com%2Farnavyc%2Freact-app-boilerplate.svg?type=large)](https://app.fossa.com/projects/custom%2B23129%2Fgithub.com%2Farnavyc%2Freact-app-boilerplate?ref=badge_large)
