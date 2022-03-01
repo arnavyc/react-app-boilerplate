@@ -1,11 +1,19 @@
+# Copyright 2022 arnavyc <arnavyc@outlook.com>.
+# SPDX-License-Identifier: 0BSD
+
 root = true
 
 [*]
+end_of_line = lf
+insert_final_newline = true
+charset = utf-8
 indent_style = space
 indent_size = 2
-charset = utf-8
 trim_trailing_whitespace = true
-insert_final_newline = true
-end_of_line = lf
-# editorconfig-tools is unable to ignore longs strings or urls
-max_line_length = null
+
+[Makefile]
+indent_size = unset
+indent_style = tab
+
+[*.py]
+indent_size = 4
