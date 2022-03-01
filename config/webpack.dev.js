@@ -12,9 +12,6 @@ const commonConfig = require('./webpack.common');
 const config = {
   mode: 'development',
   plugins: [new ESLintPlugin({ formatter: ESLintFormatterPretty })],
-  devServer: {
-    quiet: true,
-  },
 };
 
 module.exports = merge(commonConfig, config);
