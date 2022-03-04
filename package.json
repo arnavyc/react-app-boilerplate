@@ -6,6 +6,7 @@
   "author": "Arnav Yash <arnavyash2004@gmail.com>",
   "license": "0BSD",
   "private": true,
+  "type": "module",
   "scripts": {
     "postinstall": "lefthook install",
     "start:dev": "webpack serve --env development",

@@ -4,11 +4,11 @@
  * SPDX-License-Identifier: 0BSD
  */
 
-const prodConfig = require('./config/webpack.prod');
-const devConfig = require('./config/webpack.dev');
-const commonConfig = require('./config/webpack.common');
+import prodConfig from './config/webpack.prod.js';
+import devConfig from './config/webpack.dev.js';
+import commonConfig from './config/webpack.common.js';
 
-module.exports = (env) => {
+export default (env) => {
   let res = {};
   if (env.production) {
     res = prodConfig;

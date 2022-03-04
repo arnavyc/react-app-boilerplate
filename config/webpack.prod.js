@@ -4,11 +4,11 @@
  * SPDX-License-Identifier: 0BSD
  */
 
-const { merge } = require('webpack-merge');
-const commonConfig = require('./webpack.common');
+import { merge } from 'webpack-merge';
+import commonConfig from './webpack.common.js';
 
 const config = {
   mode: 'production',
 };
 
-module.exports = merge(commonConfig, config);
+export default merge(commonConfig, config);

@@ -4,14 +4,14 @@
  * SPDX-License-Identifier: 0BSD
  */
 
-const ESLintFormatterPretty = require('eslint-formatter-pretty');
-const ESLintPlugin = require('eslint-webpack-plugin');
-const { merge } = require('webpack-merge');
-const commonConfig = require('./webpack.common');
+import ESLintFormatterPretty from 'eslint-formatter-pretty';
+import ESLintPlugin from 'eslint-webpack-plugin';
+import { merge } from 'webpack-merge';
+import commonConfig from './webpack.common.js';
 
 const config = {
   mode: 'development',
   plugins: [new ESLintPlugin({ formatter: ESLintFormatterPretty })],
 };
 
-module.exports = merge(commonConfig, config);
+export default merge(commonConfig, config);

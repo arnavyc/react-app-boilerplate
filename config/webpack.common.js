@@ -4,11 +4,11 @@
  * SPDX-License-Identifier: 0BSD
  */
 
-const HTMLWebpackPlugin = require('html-webpack-plugin');
-const WebpackBar = require('webpackbar');
-const appRoot = require('app-root-path');
+import HTMLWebpackPlugin from 'html-webpack-plugin';
+import WebpackBar from 'webpackbar';
+import appRoot from 'app-root-path';
 
-module.exports = {
+export default {
   entry: './src/index.js',
   output: {
     path: `${appRoot.toString()}/dist`,
