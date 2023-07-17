@@ -49,8 +49,8 @@
   },
   "devDependencies": {
     "@arkweid/lefthook": "0.7.7",
-    "@babel/core": "7.22.8",
-    "@babel/preset-env": "7.22.7",
+    "@babel/core": "7.22.9",
+    "@babel/preset-env": "7.22.9",
     "@babel/preset-react": "7.22.5",
     "babel-jest": "27.5.1",
     "babel-loader": "8.3.0",
