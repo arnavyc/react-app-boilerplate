@@ -5,8 +5,11 @@
  */
 
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOMClient from 'react-dom/client';
 
 import App from './App.jsx';
 
-ReactDOM.render(React.createElement(App), document.getElementById('app'));
+const container = document.getElementById ('app');
+const root = ReactDOMClient.createRoot(container);
+root.render(React.createElement(App));
+
