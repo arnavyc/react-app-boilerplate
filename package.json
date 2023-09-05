@@ -45,7 +45,9 @@
     ],
     "coverageDirectory": "coverage",
     "testEnvironment": "jsdom",
-    "testURL": "http://localhost:8085"
+    "testEnvironmentOptions": {
+      "url": "http://localhost:8085"
+    }
   },
   "devDependencies": {
     "@arkweid/lefthook": "0.7.7",
@@ -68,6 +70,7 @@
     "html-loader": "4.2.0",
     "html-webpack-plugin": "5.5.3",
     "jest": "29.6.4",
+    "jest-environment-jsdom": "29.6.4",
     "prettier": "2.8.8",
     "prettier-check": "2.0.0",
     "react-test-renderer": "17.0.2",
