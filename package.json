@@ -74,7 +74,7 @@
     "prettier": "3.0.3",
     "prettier-check": "2.0.0",
     "react-test-renderer": "18.2.0",
-    "rimraf": "3.0.2",
+    "rimraf": "5.0.1",
     "webpack": "5.88.2",
     "webpack-cli": "5.1.4",
     "webpack-dev-server": "4.15.1",
