@@ -73,7 +73,7 @@
     "jest-environment-jsdom": "29.6.4",
     "prettier": "2.8.8",
     "prettier-check": "2.0.0",
-    "react-test-renderer": "17.0.2",
+    "react-test-renderer": "18.2.0",
     "rimraf": "3.0.2",
     "webpack": "5.88.2",
     "webpack-cli": "5.1.4",
@@ -83,7 +83,7 @@
   },
   "dependencies": {
     "app-root-path": "3.1.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   }
 }
