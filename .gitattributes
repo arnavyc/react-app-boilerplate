@@ -1,4 +1,5 @@
-# Copyright 2022 arnavyc <arnavyc@outlook.com>.
 # SPDX-License-Identifier: 0BSD
 
-* text=auto
+# Below line only works with Git 2.10 & later.
+# See https://github.com/git/git/blob/master/Documentation/RelNotes/2.10.0.txt#L248
+* text=auto eol=lf
