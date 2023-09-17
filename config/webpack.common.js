@@ -4,9 +4,9 @@
  * SPDX-License-Identifier: 0BSD
  */
 
-import HTMLWebpackPlugin from 'html-webpack-plugin';
-import WebpackBar from 'webpackbar';
-import appRoot from 'app-root-path';
+import HTMLWebpackPlugin from 'html-webpack-plugin'
+import WebpackBar from 'webpackbar'
+import appRoot from 'app-root-path'
 
 export default {
   entry: './src/index.js',
@@ -38,4 +38,4 @@ export default {
     }),
     new WebpackBar(),
   ],
-};
+}
