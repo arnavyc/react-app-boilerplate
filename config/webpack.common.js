@@ -7,21 +7,22 @@
 import HTMLWebpackPlugin from 'html-webpack-plugin'
 import WebpackBar from 'webpackbar'
 import appRoot from 'app-root-path'
+import ForkTsCheckerWebpackPlugin from 'fork-ts-checker-webpack-plugin'
 
 export default {
-  entry: './src/index.js',
+  entry: './src/index.tsx',
   output: {
     path: `${appRoot.toString()}/dist`,
     filename: 'bundle.js',
   },
   stats: 'errors-only',
   resolve: {
-    extensions: ['.js', '.jsx'],
+    extensions: ['.js', '.jsx', '.ts', '.tsx'],
   },
   module: {
     rules: [
       {
-        test: /\.(js|jsx)$/,
+        test: /\.(j|t)s(x?)$/,
         exclude: /node_modules/,
         use: 'babel-loader',
       },
@@ -37,5 +38,6 @@ export default {
       filename: './index.html',
     }),
     new WebpackBar(),
+    new ForkTsCheckerWebpackPlugin(),
   ],
 }
