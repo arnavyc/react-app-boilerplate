@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: 0BSD
  */
 
-import React from 'react'
+import React, { type ReactNode } from 'react'
 
-function App() {
+function App(): ReactNode {
   return (
     <div>
       <p>Hello, World</p>
