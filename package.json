@@ -91,7 +91,7 @@
     "jest-environment-jsdom": "29.7.0",
     "prettier": "3.0.3",
     "react-test-renderer": "18.2.0",
-    "rimraf": "5.0.1",
+    "rimraf": "5.0.5",
     "typescript": "5.2.2",
     "webpack": "5.88.2",
     "webpack-cli": "5.1.4",
