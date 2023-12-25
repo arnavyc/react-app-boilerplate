@@ -76,7 +76,7 @@
     "eslint-config-prettier": "9.0.0",
     "eslint-config-standard-with-typescript": "39.1.1",
     "eslint-formatter-pretty": "5.0.0",
-    "eslint-plugin-import": "2.29.0",
+    "eslint-plugin-import": "2.29.1",
     "eslint-plugin-jsx-a11y": "6.7.1",
     "eslint-plugin-n": "16.1.0",
     "eslint-plugin-prettier": "5.0.1",
