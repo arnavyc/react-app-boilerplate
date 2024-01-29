@@ -3,7 +3,7 @@
 # A React boilerplate
 
 ![Codecov](https://img.shields.io/codecov/c/github/arnavyc/react-app-boilerplate?logo=codecov&style=flat-square)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/arnavyc/react-app-boilerplate/Run%20tests?logo=github&style=flat-square)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/arnavyc/react-app-boilerplate/ci.yml?style=flat-square&logo=github)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 [![FOSSA Status](https://app.fossa.com/api/projects/custom%2B23129%2Fgithub.com%2Farnavyc%2Freact-app-boilerplate.svg?type=small)](https://app.fossa.com/projects/custom%2B23129%2Fgithub.com%2Farnavyc%2Freact-app-boilerplate?ref=badge_small)
 
